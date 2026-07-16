@@ -34,6 +34,7 @@
       <nav class="nav-menu" id="nav-menu">
         <a href="#home" class="nav-link active" id="nav-home">मुख्यपृष्ठ</a>
         <a href="#about" class="nav-link" id="nav-about">इतिहास व परिचय</a>
+        <a href="#census" class="nav-link" id="nav-census">जनगणना २०११</a>
         <a href="#agriculture" class="nav-link" id="nav-agriculture">शेती व समृद्धी</a>
         <a href="#culture" class="nav-link" id="nav-culture">संस्कृती व सण</a>
         <a href="#panchayat" class="nav-link" id="nav-panchayat">सुविधा व प्रशासन</a>
@@ -95,12 +96,12 @@
       
       <div class="stats-grid">
         <div class="stat-card">
-          <div class="stat-number">२,५००+</div>
-          <div class="stat-label">एकूण लोकसंख्या</div>
+          <div class="stat-number">१,१७१</div>
+          <div class="stat-label">एकूण लोकसंख्या (२०११)</div>
         </div>
         <div class="stat-card">
-          <div class="stat-number">८५%</div>
-          <div class="stat-label">साक्षरता प्रमाण</div>
+          <div class="stat-number">६८.१%</div>
+          <div class="stat-label">साक्षरता प्रमाण (२०११)</div>
         </div>
         <div class="stat-card">
           <div class="stat-number">७००+ हे.</div>
@@ -109,6 +110,250 @@
         <div class="stat-card">
           <div class="stat-number">१५+</div>
           <div class="stat-label">महिला बचत गट</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Census Section -->
+  <section class="section fade-up" id="census">
+    <div class="census-header-wrapper">
+      <h2>
+        <span class="census-mr">जनगणना २०११ तपशील</span>
+        <span class="census-en">Census 2011 Details</span>
+      </h2>
+      <div class="census-lang-toggle">
+        <button class="lang-btn active" id="lang-mr">मराठी</button>
+        <button class="lang-btn" id="lang-en">English</button>
+      </div>
+    </div>
+    
+    <p class="census-intro-desc text-center">
+      <span class="census-mr">सन २०११ च्या अधिकृत जनगणनेनुसार रतडगावची लोकसंख्या व साक्षरतेचा सविस्तर तपशील.</span>
+      <span class="census-en">Detailed population and literacy analytics of Ratadgaon as per the official 2011 Census.</span>
+    </p>
+
+    <!-- Overview Grid -->
+    <div class="census-overview-grid">
+      <div class="census-overview-card">
+        <div class="overview-icon"><i class="fa-solid fa-users"></i></div>
+        <div class="overview-info">
+          <span class="overview-label census-mr">एकूण लोकसंख्या</span>
+          <span class="overview-label census-en">Total Population</span>
+          <span class="overview-value">१,१७१ <span class="sub-val">(1,171)</span></span>
+        </div>
+      </div>
+      
+      <div class="census-overview-card">
+        <div class="overview-icon"><i class="fa-solid fa-house"></i></div>
+        <div class="overview-info">
+          <span class="overview-label census-mr">एकूण घरे / कुटुंबे</span>
+          <span class="overview-label census-en">Total No of Houses</span>
+          <span class="overview-value">२३६ <span class="sub-val">(236)</span></span>
+        </div>
+      </div>
+      
+      <div class="census-overview-card">
+        <div class="overview-icon"><i class="fa-solid fa-briefcase"></i></div>
+        <div class="overview-info">
+          <span class="overview-label census-mr">कार्यरत लोकसंख्या</span>
+          <span class="overview-label census-en">Working Population</span>
+          <span class="overview-value">५१.२% <span class="sub-val">(600)</span></span>
+        </div>
+      </div>
+      
+      <div class="census-overview-card">
+        <div class="overview-icon"><i class="fa-solid fa-language"></i></div>
+        <div class="overview-info">
+          <span class="overview-label census-mr">स्थानिक भाषा</span>
+          <span class="overview-label census-en">Local Language</span>
+          <span class="overview-value text-english">English <span class="sub-val">(इंग्रजी)</span></span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Charts Grid -->
+    <div class="census-charts-grid">
+      <!-- Gender Ratio Card -->
+      <div class="census-chart-card">
+        <div class="card-header-with-icon">
+          <i class="fa-solid fa-venus-mars chart-card-icon"></i>
+          <h3>
+            <span class="census-mr">लिंग गुणोत्तर</span>
+            <span class="census-en">Gender Distribution</span>
+          </h3>
+        </div>
+        <p class="chart-desc">
+          <span class="census-mr">एकूण लोकसंख्येपैकी महिला आणि पुरुषांचे प्रमाण.</span>
+          <span class="census-en">Proportion of male and female population in the village.</span>
+        </p>
+        <div class="gender-progress-wrapper">
+          <div class="gender-labels">
+            <span class="gender-label male">
+              <i class="fa-solid fa-mars"></i> 
+              <span class="census-mr">पुरुष: ५३.३% (६२४)</span>
+              <span class="census-en">Male: 53.3% (624)</span>
+            </span>
+            <span class="gender-label female">
+              <i class="fa-solid fa-venus"></i> 
+              <span class="census-mr">महिला: ४६.७% (५४७)</span>
+              <span class="census-en">Female: 46.7% (547)</span>
+            </span>
+          </div>
+          <div class="gender-bar-container">
+            <div class="gender-bar male-bar" style="width: 53.3%"></div>
+            <div class="gender-bar female-bar" style="width: 46.7%"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Literacy Profile Card -->
+      <div class="census-chart-card">
+        <div class="card-header-with-icon">
+          <i class="fa-solid fa-graduation-cap chart-card-icon"></i>
+          <h3>
+            <span class="census-mr">साक्षरता प्रमाण</span>
+            <span class="census-en">Literacy Profile</span>
+          </h3>
+        </div>
+        <p class="chart-desc">
+          <span class="census-mr">एकूण साक्षरता ६८.१% (७९७ साक्षर नागरिक).</span>
+          <span class="census-en">Overall literacy is 68.1% (797 literate citizens).</span>
+        </p>
+        <div class="literacy-rings-container">
+          <!-- Overall Literacy -->
+          <div class="ring-widget">
+            <div class="svg-ring-container">
+              <svg class="ring-svg" viewBox="0 0 100 100">
+                <circle class="ring-bg" cx="50" cy="50" r="40"></circle>
+                <circle class="ring-fill overall-fill animate-ring" cx="50" cy="50" r="40" data-pct="68.1" style="stroke-dashoffset: 251.2;"></circle>
+              </svg>
+              <div class="ring-text">६८.१%</div>
+            </div>
+            <span class="ring-label census-mr">एकूण साक्षरता</span>
+            <span class="ring-label census-en">Overall Literacy</span>
+          </div>
+
+          <!-- Male Literacy -->
+          <div class="ring-widget">
+            <div class="svg-ring-container">
+              <svg class="ring-svg" viewBox="0 0 100 100">
+                <circle class="ring-bg" cx="50" cy="50" r="40"></circle>
+                <circle class="ring-fill male-fill animate-ring" cx="50" cy="50" r="40" data-pct="72.8" style="stroke-dashoffset: 251.2;"></circle>
+              </svg>
+              <div class="ring-text">७२.८%</div>
+            </div>
+            <span class="ring-label census-mr">पुरुष साक्षरता</span>
+            <span class="ring-label census-en">Male Literacy</span>
+          </div>
+
+          <!-- Female Literacy -->
+          <div class="ring-widget">
+            <div class="svg-ring-container">
+              <svg class="ring-svg" viewBox="0 0 100 100">
+                <circle class="ring-bg" cx="50" cy="50" r="40"></circle>
+                <circle class="ring-fill female-fill animate-ring" cx="50" cy="50" r="40" data-pct="62.7" style="stroke-dashoffset: 251.2;"></circle>
+              </svg>
+              <div class="ring-text">६२.७%</div>
+            </div>
+            <span class="ring-label census-mr">महिला साक्षरता</span>
+            <span class="ring-label census-en">Female Literacy</span>
+          </div>
+        </div>
+        <p class="female-literacy-note">
+          <i class="fa-solid fa-circle-info"></i>
+          <span class="census-mr">एकूण लोकसंख्येमध्ये महिला साक्षरतेचे प्रमाण २९.३% (३४३) आहे.</span>
+          <span class="census-en">Female literates account for 29.3% (343) of the total population.</span>
+        </p>
+      </div>
+
+      <!-- Social Structure Card -->
+      <div class="census-chart-card">
+        <div class="card-header-with-icon">
+          <i class="fa-solid fa-users-rectangle chart-card-icon"></i>
+          <h3>
+            <span class="census-mr">सामाजिक रचना</span>
+            <span class="census-en">Social Demographics</span>
+          </h3>
+        </div>
+        <p class="chart-desc">
+          <span class="census-mr">अनुसूचित जाती व जमाती लोकसंख्येची वर्गवारी.</span>
+          <span class="census-en">Breakdown of Scheduled Caste (SC) and Scheduled Tribe (ST) population.</span>
+        </p>
+        <div class="social-progress-list">
+          <div class="social-progress-item">
+            <div class="social-progress-labels">
+              <span class="social-label census-mr">इतर / सर्वसाधारण</span>
+              <span class="social-label census-en">General / Others</span>
+              <span class="social-value">८४.४% (९८८)</span>
+            </div>
+            <div class="social-progress-bar-bg">
+              <div class="social-progress-bar-fill general-fill animate-bar" data-width="84.4" style="width: 0%"></div>
+            </div>
+          </div>
+          
+          <div class="social-progress-item">
+            <div class="social-progress-labels">
+              <span class="social-label census-mr">अनुसूचित जाती (SC)</span>
+              <span class="social-label census-en">Scheduled Caste (SC)</span>
+              <span class="social-value">१२.१% (१४२)</span>
+            </div>
+            <div class="social-progress-bar-bg">
+              <div class="social-progress-bar-fill sc-fill animate-bar" data-width="12.1" style="width: 0%"></div>
+            </div>
+          </div>
+
+          <div class="social-progress-item">
+            <div class="social-progress-labels">
+              <span class="social-label census-mr">अनुसूचित जमाती (ST)</span>
+              <span class="social-label census-en">Scheduled Tribe (ST)</span>
+              <span class="social-value">३.५% (४१)</span>
+            </div>
+            <div class="social-progress-bar-bg">
+              <div class="social-progress-bar-fill st-fill animate-bar" data-width="3.5" style="width: 0%"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Child & Girl Child Card -->
+      <div class="census-chart-card">
+        <div class="card-header-with-icon">
+          <i class="fa-solid fa-child chart-card-icon"></i>
+          <h3>
+            <span class="census-mr">बाल लोकसंख्या (० ते ६ वर्षे)</span>
+            <span class="census-en">Child Population (0-6 Yrs)</span>
+          </h3>
+        </div>
+        <p class="chart-desc">
+          <span class="census-mr">गावातील ० ते ६ वयोगटातील एकूण १५४ बालके.</span>
+          <span class="census-en">Total of 154 children in the age group of 0 to 6 years.</span>
+        </p>
+        
+        <div class="child-stats-container">
+          <div class="child-visual-split">
+            <div class="child-bubble boy-bubble">
+              <i class="fa-solid fa-child-reaching"></i>
+              <div class="child-bubble-val">९९</div>
+              <div class="child-bubble-label census-mr">मुलगे (६४.३%)</div>
+              <div class="child-bubble-label census-en">Boys (64.3%)</div>
+            </div>
+            <div class="child-bubble-vs"><span class="census-mr">वि.</span><span class="census-en">vs</span></div>
+            <div class="child-bubble girl-bubble">
+              <i class="fa-solid fa-child-dress"></i>
+              <div class="child-bubble-val">५५</div>
+              <div class="child-bubble-label census-mr">मुली (३५.७%)</div>
+              <div class="child-bubble-label census-en">Girls (35.7%)</div>
+            </div>
+          </div>
+          
+          <div class="girl-child-card-footer">
+            <p>
+              <i class="fa-solid fa-venus"></i>
+              <span class="census-mr">एकूण मुलांमध्ये बालिकांचे प्रमाण ३५.७% (५५) आहे.</span>
+              <span class="census-en">Girl children make up 35.7% (55) of the child population.</span>
+            </p>
+          </div>
         </div>
       </div>
     </div>
@@ -134,6 +379,140 @@
           <span class="crop-tag"><i class="fa-solid fa-leaf"></i> कांदा (Onion)</span>
           <span class="crop-tag"><i class="fa-solid fa-seedling"></i> गहू (Wheat)</span>
           <span class="crop-tag"><i class="fa-solid fa-pepper-hot"></i> भाजीपाला</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Agri-Dashboard Grid -->
+    <div class="agri-dashboard-wrapper">
+      <!-- Weather & Temperature Card -->
+      <div class="agri-dashboard-card weather-card">
+        <div class="card-title-container">
+          <i class="fa-solid fa-cloud-sun-rain card-title-icon"></i>
+          <h3>हवामान व तापमान केंद्र (Live Weather)</h3>
+        </div>
+        
+        <div class="weather-main">
+          <div class="weather-temp-block">
+            <span class="weather-temp" id="weather-temp-val">२९°C</span>
+            <span class="weather-location"><i class="fa-solid fa-location-dot"></i> राताडगाव (अहिल्यानगर)</span>
+          </div>
+          <div class="weather-status-icon">
+            <i class="fa-solid fa-cloud-sun" id="weather-status-icon-img" style="color: #FBBF24; font-size: 3.5rem;"></i>
+            <span class="weather-status-text" id="weather-status-text-val">ढगाळ हवामान</span>
+          </div>
+        </div>
+
+        <div class="weather-details-grid">
+          <div class="weather-detail-item">
+            <i class="fa-solid fa-droplet"></i>
+            <div class="detail-info">
+              <span class="detail-label">आद्रता (Humidity)</span>
+              <span class="detail-value" id="weather-humidity-val">८४%</span>
+            </div>
+          </div>
+          <div class="weather-detail-item">
+            <i class="fa-solid fa-cloud-showers-heavy"></i>
+            <div class="detail-info">
+              <span class="detail-label">पाऊस (Rainfall)</span>
+              <span class="detail-value" id="weather-rain-val">१५ मिमी</span>
+            </div>
+          </div>
+          <div class="weather-detail-item">
+            <i class="fa-solid fa-wind"></i>
+            <div class="detail-info">
+              <span class="detail-label">वारा (Wind)</span>
+              <span class="detail-value" id="weather-wind-val">१२ किमी/तास</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="weather-advisory-box">
+          <i class="fa-solid fa-circle-exclamation advisory-icon"></i>
+          <p class="advisory-text" id="weather-advisory-val">भात व ऊस पिकासाठी पोषक वातावरण आहे. फवारणी नियोजित असल्यास आज टाळावी.</p>
+        </div>
+
+        <!-- 3-Day Forecast -->
+        <div class="weather-forecast-panel">
+          <h4>३-दिवसांचा अंदाज (Forecast)</h4>
+          <div class="forecast-list">
+            <div class="forecast-item">
+              <span class="forecast-day">उद्या (Tomorrow)</span>
+              <span class="forecast-icon"><i class="fa-solid fa-cloud-rain" style="color: #60A5FA;"></i></span>
+              <span class="forecast-temp">२८°C / २४°C</span>
+            </div>
+            <div class="forecast-item">
+              <span class="forecast-day">परवा (Day 2)</span>
+              <span class="forecast-icon"><i class="fa-solid fa-cloud-showers-heavy" style="color: #3B82F6;"></i></span>
+              <span class="forecast-temp">२७°C / २३°C</span>
+            </div>
+            <div class="forecast-item">
+              <span class="forecast-day">तिसरा दिवस (Day 3)</span>
+              <span class="forecast-icon"><i class="fa-solid fa-cloud" style="color: #94A3B8;"></i></span>
+              <span class="forecast-temp">२९°C / २५°C</span>
+            </div>
+          </div>
+        </div>
+
+        <button id="refresh-weather-btn" class="weather-refresh-btn">
+          <i class="fa-solid fa-arrows-rotate" id="refresh-icon"></i> हवामान अपडेट करा (Refresh)
+        </button>
+      </div>
+
+      <!-- Farmer News Notice Box -->
+      <div class="agri-dashboard-card news-card">
+        <div class="card-title-container">
+          <i class="fa-solid fa-bullhorn card-title-icon"></i>
+          <h3>शेतकरी बातमीपत्र व सूचना फलक</h3>
+        </div>
+        
+        <div class="news-filters-wrapper">
+          <button class="news-filter-btn active" data-category="all">सर्व (All)</button>
+          <button class="news-filter-btn" data-category="scheme">शासकीय योजना</button>
+          <button class="news-filter-btn" data-category="weather">हवामान</button>
+          <button class="news-filter-btn" data-category="advisory">कृषी सल्ला</button>
+        </div>
+
+        <div class="news-notice-container" id="news-notice-container">
+          <!-- Notice 1 -->
+          <div class="notice-item" data-category="scheme">
+            <div class="notice-header">
+              <span class="notice-badge scheme-badge"><i class="fa-solid fa-hand-holding-dollar"></i> शासकीय योजना</span>
+              <span class="notice-date">१५ जुलै २०२६</span>
+            </div>
+            <h4 class="notice-title">नमो शेतकरी महासन्मान निधी: ५ वा हप्ता जमा</h4>
+            <p class="notice-body">महाराष्ट्र शासनातर्फे नमो शेतकरी योजनेचा ५ वा हप्ता डीबीटीद्वारे पात्र शेतकऱ्यांच्या बँक खात्यात वर्ग करण्यात आला आहे. गावकऱ्यांनी आपले नाव ग्रामपंचायत ई-चावडी फलकावर तपासावे.</p>
+          </div>
+
+          <!-- Notice 2 -->
+          <div class="notice-item" data-category="scheme">
+            <div class="notice-header">
+              <span class="notice-badge scheme-badge"><i class="fa-solid fa-shield-halved"></i> पीक विमा</span>
+              <span class="notice-date">१४ जुलै २०२६</span>
+            </div>
+            <h4 class="notice-title">खरीप पीक विमा अर्ज अंतिम मुदत - ३१ जुलै</h4>
+            <p class="notice-body">पंतप्रधान पीक विमा योजनेअंतर्गत खरीप हंगामातील पिकांचा केवळ रु. १ मध्ये विमा उतरवण्याची मुदत ३१ जुलै २०२६ पर्यंत आहे. सीएससी (CSC) केंद्रावर किंवा ऑनलाईन पद्धतीने त्वरित अर्ज भरावा.</p>
+          </div>
+
+          <!-- Notice 3 -->
+          <div class="notice-item" data-category="weather">
+            <div class="notice-header">
+              <span class="notice-badge weather-badge"><i class="fa-solid fa-triangle-exclamation"></i> हवामान इशारा</span>
+              <span class="notice-date">१६ जुलै २०२६</span>
+            </div>
+            <h4 class="notice-title">अहिल्यानगर जिल्ह्यात अतिवृष्टीचा पिवळा इशारा (Yellow Alert)</h4>
+            <p class="notice-body">भारतीय हवामान विभागाने (IMD) दिलेल्या अंदाजानुसार, पुढील ४८ ते ७२ तासांत अहमदनगर परिसरात विजांच्या कडकडाटासह मुसळधार पावसाची शक्यता आहे. सखल भागातील शेतकऱ्यांनी सतर्क राहावे.</p>
+          </div>
+
+          <!-- Notice 4 -->
+          <div class="notice-item" data-category="advisory">
+            <div class="notice-header">
+              <span class="notice-badge advisory-badge"><i class="fa-solid fa-wheat-awn"></i> कृषी सल्ला</span>
+              <span class="notice-date">१२ जुलै २०२६</span>
+            </div>
+            <h4 class="notice-title">कांदा रोपवाटिका व कीड नियंत्रण उपाय</h4>
+            <p class="notice-body">सध्याच्या दमट हवामानामुळे कांदा रोपवाटिकेमध्ये करपा (Purple Blotch) रोगाचा प्रादुर्भाव होण्याची शक्यता आहे. प्रतिबंधात्मक उपाय म्हणून कृषी सहाय्यकांच्या सल्ल्यानुसार बुरशीनाशकाची फवारणी करावी.</p>
+          </div>
         </div>
       </div>
     </div>
@@ -480,6 +859,7 @@
           <ul>
             <li><a href="#home"><i class="fa-solid fa-chevron-right" style="font-size: 0.8rem;"></i> मुख्यपृष्ठ</a></li>
             <li><a href="#about"><i class="fa-solid fa-chevron-right" style="font-size: 0.8rem;"></i> इतिहास व परिचय</a></li>
+            <li><a href="#census"><i class="fa-solid fa-chevron-right" style="font-size: 0.8rem;"></i> जनगणना २०११</a></li>
             <li><a href="#agriculture"><i class="fa-solid fa-chevron-right" style="font-size: 0.8rem;"></i> शेती व समृद्धी</a></li>
             <li><a href="#panchayat"><i class="fa-solid fa-chevron-right" style="font-size: 0.8rem;"></i> सुविधा व प्रशासन</a></li>
             <li><a href="#gallery"><i class="fa-solid fa-chevron-right" style="font-size: 0.8rem;"></i> छायाचित्र दालन</a></li>
